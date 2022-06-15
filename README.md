@@ -33,7 +33,7 @@ URL : https://documenter.getpostman.com/view/21475317/UzBiPUBb
 
 Kindly verify the results and incase of any queries kindly mail me @ blnavanee@gmail.com
 
-**Note :** From the robot api url, I am unable to find the locations of the robots. Even from th json which I received there after also I could not find the location details in the given json and as per the information from the concerned person to complete the task till which part it can be done, I have done so far.
+**Note :** From the robot api url(https://robotstakeover20210903110417.azurewebsites.net/robotcpu) givn, I am unable to find the locations of the robots. Even from th json which I received there after also I could not find the location details in the given json and as per the information from the concerned person to complete the task till which part it can be done, I have done so far.
 Hence I have taken infected flag as a input from the user and executed the project.
 
 
