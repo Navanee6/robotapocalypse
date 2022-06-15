@@ -9,5 +9,28 @@ Pre-requesites :
 
 Execution Procedures:
 
+Step 1 :
+
 * clone in to the github repo for robot apocalypse spring boot project and open it in your eclipse by importing the projects
-* 
+* Navigate to "application.properties" file in the path "springBoot/src/main/resources/application.properties" to configure database settings.
+Details to be confgured in application.properties file :
+
+* spring.datasource.driver-class-name= com.mysql.jdbc.Driver
+* spring.datasource.url= jdbc:mysql://localhost:3306/robot - kindly change it to your database url
+* spring.datasource.username= root - Kindly give your username
+* spring.datasource.password= root - kindly use your password
+* spring.jsp.show-sql = true
+* spring.jpa.ddl-auto = update
+* spring.jpa.generate-ddl = true
+* spring.jpa.hibernate.ddl-auto = create
+* spring.jpa.properties.hibernate.dialect =org.hibernate.dialect.MYSQL5InnoDBDialect
+* serve.port = 9090 - change port if you are using 9090 anywhere in you project
+
+Step 2 :
+
+To verify the api endpoints and for the end points details and description, kindly check the below api documentation url
+URL : https://documenter.getpostman.com/view/21475317/UzBiPUBb
+
+Kindly verify the results and incase of any queries kindly mail me @ blnavanee@gmail.com
+
+
